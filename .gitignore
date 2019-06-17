@@ -1,0 +1,13 @@
+*.log
+*~
+*.user
+*.d
+*.g
+*.dat
+*.ldata
+debian/debhelper-build-stamp
+debian/ros-kinetic-xbot-talker.substvars
+debian/ros-kinetic-xbot-talker/
+debian/files
+obj-x86_64-linux-gnu/
+/assets/msc/res/gramBuild

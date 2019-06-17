@@ -1,0 +1,12 @@
+Source: ros-kinetic-xbot-talker
+Section: misc
+Priority: extra
+Maintainer: lee <lee@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), libasound2-dev, ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-message-generation, ros-kinetic-xbot-msgs, ros-kinetic-geometry-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-xbot-talker
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roscpp, ros-kinetic-rospy, ros-kinetic-std-msgs, ros-kinetic-message-runtime, ros-kinetic-xbot-msgs, ros-kinetic-geometry-msgs
+Description: The xbot_talker package
