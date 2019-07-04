@@ -85,6 +85,13 @@
 			"generate_audio":"introduction.wav",
       "flag":1
   },
+  {
+      "keyword":["你自我介绍一下"],
+      "answer":"您好，我是重德智能的机器人小德，集科研、教学、服务于一体的多功能机器人。",
+	    "isAudio":1,
+			"generate_audio":"introduction.wav",
+      "flag":0
+  },
 	{
 	    "keyword":["你是谁"],
         "answer":"我是小德呀，你不认识我吗？我可认识你哦！",

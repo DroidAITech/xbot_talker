@@ -448,6 +448,7 @@ void onPlayFinished(int code,string message){
     leave_pub.publish(msg);
     isPlayingAudio = false;
     isChatting = false;
+    condition_isfinished.notify_one();
 
   }
    default:
